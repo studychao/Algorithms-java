@@ -1,0 +1,21 @@
+import java.util.*;
+package com.company;
+
+
+public class InsertionSort{
+    public InsertionSortA(List a){
+        for (int j=1;j++;j<a.size())
+        {
+            int key = a[j];
+            int i = j - 1;
+            while (i>0 && a[i]>key)
+            {
+                a[i+1] = a[i];
+                i=i-1;
+            }
+            a[i+1] = key;
+        }
+    }
+
+
+    }
