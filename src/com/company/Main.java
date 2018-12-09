@@ -3,17 +3,13 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        int N = StdIn.readInt();
-        UF uf = new UF(N);
-        while (!StdIn.isEmpty())
-        {
-            int p = StdIn.readInt();
-            int q = StdIn.readInt();
-            if (!uf.connected(q,p))
-            {
-                uf.union(p,q);
-                StdOut.println(p + " " + q);
-            }
-        }
+        Quickfind a = new Quickfind(5);
+        System.out.print(a.id[0]);
+        System.out.print(a.id[4]);
+        System.out.print(a.id[3]);
+        a.union(0,4);
+
+        a.union(3,4);
+        System.out.print(a.id[0]);
     }
 }
