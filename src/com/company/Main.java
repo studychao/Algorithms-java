@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        QuickUnion a = new QuickUnion(5);
+        WeightedQuickUnion a = new WeightedQuickUnion(5);
         System.out.print(a.id[0]);
         System.out.print(a.id[4]);
         System.out.print(a.id[3]);
