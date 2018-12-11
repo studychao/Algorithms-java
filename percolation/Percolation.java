@@ -8,9 +8,9 @@
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
-    public WeightedQuickUnionUF a;
-    public boolean[] aray;
-    public int n;
+    private WeightedQuickUnionUF a;
+    private boolean[] aray;
+    private int n;
     public Percolation(int n){
        a = new WeightedQuickUnionUF(n*n+2);
        this.n=n;
@@ -22,7 +22,7 @@ public class Percolation {
        aray[n*n+1] = true;
     }
 
-    public int array2dto1d(int row,int col){
+    private int array2dto1d(int row,int col){
         if (row <= 0 || row > n){
             throw new IndexOutOfBoundsException("row out of bound");
         }
@@ -30,7 +30,7 @@ public class Percolation {
             throw new IndexOutOfBoundsException("col out of bound");
         }
 
-        return (row*(n-1)+col);
+        return ((row-1)*(n)+col);
     }
     public void open(int row,int col){
         aray[array2dto1d(row,col)] = true;
@@ -75,8 +75,8 @@ public class Percolation {
     }
     public static void main(String[] args) {
         Percolation a =new Percolation(3);
-        a.open(1,1);
-        a.open(2,1);
-        System.out.print (a.percolates());
+        a.open(1,3);
+        System.out.print (a.isOpen(2,1));
+        System.out.print (a.isOpen(1,3));
     }
 }
