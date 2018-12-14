@@ -3,9 +3,13 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        int[] intArray = new int[]{ 1,2,3,4,5,6,7,8,9};
-        int m =9;
-        BinarySearch a = new BinarySearch();
-        System.out.print(a.BinarySearch(intArray,m));
+        FixedCapacityOfStrings a = new FixedCapacityOfStrings(10);
+        a.push("chao");
+        a.push("gonna");
+        a.push("study every day");
+        System.out.print(a.pop());
+        System.out.print(a.pop());
+        System.out.print(a.pop());
+        System.out.print(a.isEmpty());
     }
 }
