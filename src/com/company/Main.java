@@ -1,9 +1,9 @@
 package com.company;
-import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
-        FixedCapacityOfStrings a = new FixedCapacityOfStrings(10);
+        ResizingfStrings a = new ResizingfStrings();
         a.push("chao");
         a.push("gonna");
         a.push("study every day");
