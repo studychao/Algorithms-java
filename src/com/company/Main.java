@@ -7,10 +7,6 @@ public class Main {
         a.push("chao");
         a.push("gonna");
         a.push("study every day");
-        a.push("study every day");
-        a.push("study every day");
-        a.push("study every day");
-        a.push("study every day");
 
        for (String s : a){
            System.out.print(s);
