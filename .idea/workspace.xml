@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b265278e-9f70-42e7-8bee-dbd14a332755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToAlgorithms-java/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToAlgorithms-java/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LinkedStackOfStrings.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,14 +63,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Insertion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="456">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="e#475#476#0" expanded="true" />
                 <element signature="e#514#515#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/ShellSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="e#503#504#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Selection.java" />
         <option value="$PROJECT_DIR$/src/com/company/Insection.java" />
         <option value="$PROJECT_DIR$/src/com/company/Insertion.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ShellSort.java" />
       </list>
     </option>
   </component>
@@ -206,7 +207,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546899212256" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546991617930" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -230,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Insertion">
+  <component name="RunManager" selected="Application.ShellSort">
     <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Insertion" />
       <module name="IntroToAlgorithms-java" />
@@ -273,14 +274,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ShellSort" />
+      <module name="IntroToAlgorithms-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.Selection" />
       <item itemvalue="Application.Insertion" />
+      <item itemvalue="Application.ShellSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.Selection" />
         <item itemvalue="Application.Main" />
@@ -305,7 +321,7 @@
     <frame x="237" y="51" width="1400" height="932" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2790869" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2790869" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,7 +330,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297619" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297619" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,6 +457,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Insertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -448,13 +475,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Insertion.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
           </folding>
         </state>
       </provider>
